@@ -43,22 +43,12 @@ am4core.ready(function() {
     ];
 
 
-    let topContainer = chart.chartContainer.createChild(am4core.Container);
-    topContainer.layout = "absolute";
-    topContainer.toBack();
-    topContainer.paddingBottom = 15;
-    topContainer.width = am4core.percent(100);
 
-    let axisTitle = topContainer.createChild(am4core.Label);
-    axisTitle.text = "Source: Sina";
-    axisTitle.fontWeight = 600;
-    axisTitle.align = "left";
-    axisTitle.paddingLeft = 10;
     
     chart.innerRadius = am4core.percent(30);
     chart.depth = 120;
 
-    chart.fontSize = 14;
+    chart.fontSize = 12;
 
     
     var series = chart.series.push(new am4charts.PieSeries3D());
