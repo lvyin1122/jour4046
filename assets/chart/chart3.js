@@ -68,4 +68,4 @@ am4core.ready(function() {
     series.slices.template.cornerRadius = 5;
     series.colors.step = 3;
     
-    }); // end am4core.ready()
+  }); // end am4core.ready()
