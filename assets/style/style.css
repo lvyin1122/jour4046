@@ -91,6 +91,13 @@ p {
   text-shadow: 1px 1px 1px #000, 3px 3px 5px #494a76;
 }
 
+.chartTitle {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 15px 0 8px 0;
+
+}
+
 @media screen and (max-width: 600px) {
     .border {
       font-size: 30px;

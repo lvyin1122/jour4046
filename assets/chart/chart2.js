@@ -49,10 +49,6 @@
           }
         ]
 
-        let title = chart.titles.create();
-        title.text = "China's Pan-ACG Users";
-        title.fontSize = 25;
-        title.marginBottom = 30;
     
         let topContainer = chart.chartContainer.createChild(am4core.Container);
         topContainer.layout = "absolute";
